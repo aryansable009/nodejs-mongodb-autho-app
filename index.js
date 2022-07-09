@@ -1,5 +1,11 @@
 const http = require('http');
 const app = require('./app');
+// require database connection 
+// const dbConnect = require("./db/dbConnect");
+// const User = require("./db/userModel");
+
+// execute database connection 
+
 
 const normalizePort = val => {
   const port = parseInt(val, 10);
